@@ -1,0 +1,11 @@
+server:
+  port: 8990
+data-collector:
+  base-url:
+    itunes: 'https://itunes.apple.com/search?term='
+    google-book: 'https://www.googleapis.com/books/v1/volumes?q='
+  limit:
+    itunes: 5
+    google-book: 5
+  api-key:
+    google-book: 'AIzaSyCtyoOJ4CL86WRqh6vfHeMT0oRacI-OaZY'
